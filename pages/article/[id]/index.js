@@ -8,6 +8,7 @@ import styles from "../../../styles/article.module.scss";
  * @param {article} props provided by getStaticProps and getStaticPaths
  * @returns
  */
+
 const Article = ({ article }) => {
   return (
     <div className={styles.articleDetail}>
